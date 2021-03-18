@@ -54,7 +54,14 @@ Face detection: Detect and isolate faces in the image.
 
 Face recognition: For each detected face in the image, we run it through a neural network to classify the subject.
 
-## The following tasks should be performed when determining whether the presented face belongs to an arbitrary person (say person A):
+## One-shot learning
+Given the unique requirements and constraints faced by facial recognition systems, it is clear that the paradigm of training a CNN for classification using a huge dataset (known as batch learning classification) is unsuitable for the facial recognition problem. 
+
+Instead, our objective is to create a neural network that can learn to recognize any face using just a single training sample. 
+
+This form of neural network training is known as one-shot learning.
+
+### The following tasks should be performed when determining whether the presented face belongs to an arbitrary person (say person A):
 
 1. Retrieve the stored image of person A (obtained during the onboarding process). This is the true image of person A.
 
