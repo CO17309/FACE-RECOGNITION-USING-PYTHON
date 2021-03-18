@@ -52,6 +52,10 @@ Face detection: Detect and isolate faces in the image.
 
 2. Features with alternating regions of dark and light pixels are known as Haar features.
 
+![hf1](https://user-images.githubusercontent.com/36764949/111661508-157ba100-8835-11eb-9079-6f31f5c18d03.jpg)
+
+![hf2](https://user-images.githubusercontent.com/36764949/111661544-1dd3dc00-8835-11eb-9a6b-febd27177700.jpg)
+
 Face recognition: For each detected face in the image, we run it through a neural network to classify the subject.
 
 ## One-shot learning
