@@ -37,6 +37,8 @@ Face recognition: For each detected face in the image, we run it through a neura
 
 The following diagram illustrates this process:
 
+![PROCC](https://user-images.githubusercontent.com/36764949/111638531-6b921980-8820-11eb-8724-e3f08f26261d.png)
+
 ## The faces dataset
 The dataset that we have chosen is the Database of Faces, created by AT&T Laboratories, Cambridge. 
 
@@ -67,10 +69,10 @@ Because we are reusing this single instance, Keras will automatically understand
 This neural network is known as a Siamese neural network, because just like a Siamese twin, it has a conjoined component at the convolutional layers.
 
 ## Creating a Siamese neural network in Keras!
+The following diagram shows the detailed architecture of the Siamese neural network.
 
 ![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)
 
-The following diagram shows the detailed architecture of the Siamese neural network
 
 In this we create the shared convolutional network in Keras(boxed in the preceding diagram).
 
