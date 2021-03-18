@@ -39,6 +39,13 @@ Because we are reusing this single instance, Keras will automatically understand
 
 
 ![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)!
+## Model training in Keras
+
+Training a Siamese neural network is slightly different than training a regular CNN. 
+
+When training a CNN, the training samples are arrays of images, along with the corresponding class label for each image. 
+
+In contrast, to train a Siamese neural network we need to use pairs of arrays of images, along with the corresponding class label for the pairs of images (that is, 1 if the pairs of images are from the same subject, and 0 if the pairs of images are from different subjects).
 
 ![Picture2](https://user-images.githubusercontent.com/36764949/111611456-79d13d00-8802-11eb-8e45-0c6ebc076b79.png)
 
