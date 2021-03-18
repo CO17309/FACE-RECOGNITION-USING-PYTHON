@@ -33,8 +33,9 @@ Face recognition: For each detected face in the image, we run it through a neura
 
 3. Using the true photo and the test photo, the neural network should output a similarity score of the faces in the two photos.
 
-4. If the similarity score output by the neural network is below a certain threshold (that is, the people in the two photos look dissimilar), we deny access, and if they
-are above the threshold, we grant access.
+4. If the similarity score output by the neural network is below a certain threshold (that is, the people in the two photos look dissimilar), we deny access, and if they are above the threshold, we grant access.
+
+The following diagram illustrates this process:
 
 ## The faces dataset
 The dataset that we have chosen is the Database of Faces, created by AT&T Laboratories, Cambridge. 
