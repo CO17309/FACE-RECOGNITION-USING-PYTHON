@@ -43,5 +43,15 @@ Because we are reusing this single instance, Keras will automatically understand
 ![Picture2](https://user-images.githubusercontent.com/36764949/111611456-79d13d00-8802-11eb-8e45-0c6ebc076b79.png)
 
 
+## Future work
+Our face recognition system certainly works well under simple conditions. However, it is definitely not fool-proof, and certainly not secure enough to be implemented in important applications. 
+
+For one, the face detection system can be fooled by a static photo. Theoretically, that means we can bypass the authentication by placing a static photo of an authorized user in front of the webcam. 
+
+Techniques to solve this problem are known as anti-spoofing techniques. Anti-spoofing techniques are a keenly studied area in face recognition. In general, there are two main antispoofing techniques used today:
+
+1. Liveness detection: Since a photo is a static two-dimensional image and a real face is dynamic and three-dimensional, we can check for the liveness of the detected face. Ways to perform liveness detection include checking the optic flow of the detected face, and checking the lighting and texture of the detected face in contrast to the surroundings.
+
+2. Machine learning: We can also differentiate a real face from an image by using machine learning! We can train a CNN to classify whether the detected face belongs to a real face or a static image. However, you would need plenty of labeled data (face versus non-face) to accomplish this.
 
 
