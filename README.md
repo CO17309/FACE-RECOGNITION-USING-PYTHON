@@ -25,8 +25,7 @@ Face detection: Detect and isolate faces in the image.
 
 Face recognition: For each detected face in the image, we run it through a neural network to classify the subject.
 
-## The following tasks should be performed when determining whether the presented face belongs to an arbitrary person (say,
-person A):
+## The following tasks should be performed when determining whether the presented face belongs to an arbitrary person (say person A):
 
 1. Retrieve the stored image of person A (obtained during the onboarding process). This is the true image of person A.
 
