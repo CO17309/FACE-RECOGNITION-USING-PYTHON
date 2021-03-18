@@ -14,6 +14,17 @@ We have trained and implemented a robust model that can recognize faces, even wh
 
 Program that uses the pre-trained neural network and a webcam, to authenticate the user sitting in front of the computer.
 
+## Technical requirements
+The following Python libraries are required for this chapter:
+
+Numpy 1.15.2
+
+Keras 2.2.4
+
+OpenCV 3.4.2
+
+PIL 5.4.1
+
 ## Facial Recognition Systems
 We can break down the face recognition into smaller steps.
 
