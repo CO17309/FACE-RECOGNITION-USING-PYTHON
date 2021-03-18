@@ -37,17 +37,30 @@ We can create the top and bottom convolutional network using this single instanc
 
 Because we are reusing this single instance, Keras will automatically understand that the weights are to be shared.
 
+## Creating a Siamese neural network in Keras!
 
-![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)!
+![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)
+
+The following diagram shows the detailed architecture of the Siamese neural network
+
+First we create the shared convolutional network in Keras(boxed in the preceding diagram).
+
+We don't actually need to create two different networks. 
+
+We only need a single instance of the shared network to be declared in Keras. 
+
+We can create the top and bottom convolutional network using this single instance. 
+
+Because we are reusing this single instance, Keras will automatically understand that the weights are to be shared.
+
 ## Model training in Keras
-
 Training a Siamese neural network is slightly different than training a regular CNN. 
 
 When training a CNN, the training samples are arrays of images, along with the corresponding class label for each image. 
 
 In contrast, to train a Siamese neural network we need to use pairs of arrays of images, along with the corresponding class label for the pairs of images (that is, 1 if the pairs of images are from the same subject, and 0 if the pairs of images are from different subjects).
 
-![Picture2](https://user-images.githubusercontent.com/36764949/111611456-79d13d00-8802-11eb-8e45-0c6ebc076b79.png)
+[Picture2](https://user-images.githubusercontent.com/36764949/111615159-6aec8980-8806-11eb-84b9-35296c4db9c0.png)
 
 
 ## Future work
