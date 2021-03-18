@@ -44,7 +44,7 @@ Because we are reusing this single instance, Keras will automatically understand
 
 The following diagram shows the detailed architecture of the Siamese neural network
 
-First we create the shared convolutional network in Keras(boxed in the preceding diagram).
+In this we create the shared convolutional network in Keras(boxed in the preceding diagram).
 
 We don't actually need to create two different networks. 
 
