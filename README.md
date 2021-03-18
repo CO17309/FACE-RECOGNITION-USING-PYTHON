@@ -25,6 +25,24 @@ OpenCV 3.4.2
 
 PIL 5.4.1
 
+## The following files are present in the project:
+face_detection.py contains the Python code for face detection using OpenCV.
+
+siamese_nn.py contains the Python code to create and train a Siamese neural network.
+
+get_true_face.py contains the Python code for the onboarding process of the face recognition system.
+
+face_recognition_system.py contains the complete face recognition system program.
+
+helper.py contains the euclidean_distance, contrastive_loss, and accuracy functions needed to train a Siamese neural network.
+
+### Please run the Python files in this order:
+1. siamese_nn.py: To train a Siamese neural network for face recognition
+
+2. get_true_face.py: To start the onboarding process for the face recognition system 
+ 
+3. face_recognition_system.py: The actual face recognition program that uses your webcam
+
 ## Facial Recognition Systems
 We can break down the face recognition into smaller steps.
 
