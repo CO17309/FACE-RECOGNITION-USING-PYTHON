@@ -1,5 +1,13 @@
 # FACE-RECOGNITION-USING-PYTHON
 ## Introduction
+Face Recognition is a simple project developed using Python. 
+
+The project  is developed by using Siamese Neural Network Facial recognition has many benefits in society, including increasing safety and security and preventing crimes. 
+
+It can even help support medical efforts, in some cases.
+
+It is more convenient than the physical database which provides faster access. This way we can recognize any person faster and without any human intervention. 
+
 The facial recognition system uses a webcam to stream frames from a live video to a pre-trained Siamese neural network and using a true image of the user the system is able to authenticate the user in front of the webcam.
 
 We have trained and implemented a robust model that can recognize faces, even when the subject has different expressions and when the photo is taken from different angles.
