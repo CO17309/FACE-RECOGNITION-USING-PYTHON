@@ -61,6 +61,10 @@ We can create the top and bottom convolutional network using this single instanc
 
 Because we are reusing this single instance, Keras will automatically understand that the weights are to be shared.
 
+![Sismese](https://user-images.githubusercontent.com/36764949/111619807-fe748900-880b-11eb-923e-7cbc72934ded.png)
+
+This neural network is known as a Siamese neural network, because just like a Siamese twin, it has a conjoined component at the convolutional layers.
+
 ## Creating a Siamese neural network in Keras!
 
 ![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)
