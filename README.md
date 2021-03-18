@@ -60,8 +60,7 @@ When training a CNN, the training samples are arrays of images, along with the c
 
 In contrast, to train a Siamese neural network we need to use pairs of arrays of images, along with the corresponding class label for the pairs of images (that is, 1 if the pairs of images are from the same subject, and 0 if the pairs of images are from different subjects).
 
-[Picture2](https://user-images.githubusercontent.com/36764949/111615159-6aec8980-8806-11eb-84b9-35296c4db9c0.png)
-
+![Picture2](https://user-images.githubusercontent.com/36764949/111615299-91122980-8806-11eb-8bcc-8897b6fa5b75.png)
 
 ## Future work
 Our face recognition system certainly works well under simple conditions. However, it is definitely not fool-proof, and certainly not secure enough to be implemented in important applications. 
