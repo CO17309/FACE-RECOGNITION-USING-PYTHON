@@ -46,7 +46,7 @@ helper.py contains the euclidean_distance, contrastive_loss, and accuracy functi
 ## Facial Recognition Systems
 We can break down the face recognition into smaller steps.
 
-Face detection: Detect and isolate faces in the image.
+a) Face detection: Detect and isolate faces in the image.
 
 1. We have used a pre-trained cascade classifier for face detection called Haar Cascades.
 
@@ -56,7 +56,9 @@ Face detection: Detect and isolate faces in the image.
 
 ![hf2](https://user-images.githubusercontent.com/36764949/111661544-1dd3dc00-8835-11eb-9a6b-febd27177700.jpg)
 
-Face recognition: For each detected face in the image, we run it through a neural network to classify the subject.
+b) Face recognition: For each detected face in the image, we run it through a neural network to classify the subject.
+
+Given an image, our eyes immediately zoom into each face (face detection), and we recognize the faces individually (face recognition).
 
 ## One-shot learning
 Given the unique requirements and constraints faced by facial recognition systems, it is clear that the paradigm of training a CNN for classification using a huge dataset (known as batch learning classification) is unsuitable for the facial recognition problem. 
