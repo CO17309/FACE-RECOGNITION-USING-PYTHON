@@ -25,6 +25,18 @@ Face detection: Detect and isolate faces in the image.
 
 Face recognition: For each detected face in the image, we run it through a neural network to classify the subject.
 
+## The following tasks should be performed when determining whether the presented face belongs to an arbitrary person (say,
+person A):
+
+1. Retrieve the stored image of person A (obtained during the onboarding process). This is the true image of person A.
+
+2. At testing time (for example, when someone is is trying to unlock the phone of person A), capture the image of the person. This is the test image.
+
+3. Using the true photo and the test photo, the neural network should output a similarity score of the faces in the two photos.
+
+4. If the similarity score output by the neural network is below a certain threshold (that is, the people in the two photos look dissimilar), we deny access, and if they
+are above the threshold, we grant access.
+
 ## Siamese Neural Networks
 The term Siamese means twins. 
 
