@@ -38,5 +38,9 @@ We can create the top and bottom convolutional network using this single instanc
 Because we are reusing this single instance, Keras will automatically understand that the weights are to be shared.
 
 
+![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)!
+
+![Uploading Picture2.png…]()
+
 
 
