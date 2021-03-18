@@ -40,7 +40,8 @@ Because we are reusing this single instance, Keras will automatically understand
 
 ![Picture1](https://user-images.githubusercontent.com/36764949/111611209-3545a180-8802-11eb-8794-a4677d9d8cee.png)!
 
-![Uploading Picture2.png…]()
+![Picture2](https://user-images.githubusercontent.com/36764949/111611456-79d13d00-8802-11eb-8e45-0c6ebc076b79.png)
+
 
 
 
