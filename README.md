@@ -37,7 +37,9 @@ Face recognition: For each detected face in the image, we run it through a neura
 are above the threshold, we grant access.
 
 ## The faces dataset
-The dataset that we have chosen is the Database of Faces, created by AT&T Laboratories, Cambridge. The database contains photos of 40 subjects, with 10 photos of each subject. 
+The dataset that we have chosen is the Database of Faces, created by AT&T Laboratories, Cambridge. 
+
+The database contains photos of 40 subjects, with 10 photos of each subject. 
 
 The photos of each subject were taken under different lighting and angles, and they have different facial expressions. 
 
